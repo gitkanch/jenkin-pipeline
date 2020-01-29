@@ -4,81 +4,46 @@
 <h2> Thank you *****    HAVE A GREAT DAY    </h2>
 
 
+<!DOCTYPE html>
 <html>
-<head>
-<title>HTML Table</title>
-</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/w3css/3/w3.css">
 <body>
-<form method="" action="">
-<table border="1" align="center" width="400" bgcolor="#CCCCCC" >
-<caption>Registration form</caption>
-<tr>
-<th>Enter your first name</th>
-<td><input type="text" name="fn" id="fn1" maxlength="10" title="enter your first name" placeholder="enter your first name" required/></td>
-</tr>
-<tr>
-<th>Enter your last name</th>
-<td><input type="text"/></td>
-</tr>
-<tr>
-<th>Enter your password</th>
-<td><input type="password"/></td>
-</tr>
-<tr>
-<th>ReEnter your password</th>
-<td><input type="password"/></td>
-</tr>
-<tr>
-<th>Enter your email</th>
-<td><input type="email"/></td>
-</tr>
-<tr>
-<th>Enter your mobile</th>
-<td><input type="number"/></td>
-</tr>
-<tr>
-<th>Enter your address</th>
-<td><textarea rows="8" cols="20"></textarea></td>
-</tr>
-<tr>
-<th>Select your gender</th>
-<td>
-male<input type="radio" name="g" value="m"/>
-female<input type="radio" name="g" value="f"/>
-</td>
-</tr>
-<tr>
-<th>Select your hobbies</th>
-<td>
-hobby1<input type="checkbox" name="x[]" value="h"/>
-hobby2<input type="checkbox" name="x[]" value="h2"/>
-hobby3<input type="checkbox" name="x[]" value="h3"/>
-</td>
-</tr>
-<tr>
-<th>Select your DOB</th>
-<td><input type="date"/></td>
-</tr>
-<tr>
-<th>Select your Country</th>
-<td>
-<select name="country">
-<option value="" selected="selected" disabled="disabled">Select your country</option>
-<option value="1">India</option>
-<option value="2">Pakistan</option>
-</select>
-</td>
-</tr>
-<tr>
-<th>Upload your pic</th>
-<td><input type="file"/></td>
-</tr>
-<tr>
-<td colspan="2" align="center"><input type="submit" value="Save My Data"/>
-<input type="reset" value="Reset Data"/>
-</td>
-</tr>
-</table>
-</form>
+
+<!-- Navigation -->
+<nav class="w3-bar w3-black">
+  <a href="#home" class="w3-button w3-bar-item">Home</a>
+  <a href="#band" class="w3-button w3-bar-item">Band</a>
+  <a href="#tour" class="w3-button w3-bar-item">Tour</a>
+  <a href="#contact" class="w3-button w3-bar-item">Contact</a>
+</nav>
+
+<!-- Slide Show -->
+<section>
+  <img class="mySlides" src="img_band_la.jpg" style="width:100%">
+  <img class="mySlides" src="img_band_ny.jpg" style="width:100%">
+  <img class="mySlides" src="img_band_chicago.jpg" style="width:100%">
+</section>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
 </body>
 </html>
+
