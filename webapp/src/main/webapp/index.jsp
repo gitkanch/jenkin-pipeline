@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head></head>
-<body bgcolor="gold" font-color="red">
+<body bgcolor="white" font-color="red">
  
 <table border='0' width='480px' cellpadding='0' cellspacing='0' align='center'>
 <center><tr>
