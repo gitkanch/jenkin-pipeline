@@ -3,118 +3,60 @@
 <h2> Group Members- Kanchan Bhuibhar , Aniket Tidke , Shubham Bokadiya , Aniket Shinde</h2>
 <h2> Thank you *****    HAVE A GREAT DAY    </h2>
 
-
+<!DOCTYPE html>
 <html>
-<head>
-<script type="text/javascript" src="validate.js"></script>
-</head>
-<body>
-<form action="#" name="StudentRegistration" onsubmit="return(validate());">
-
-<table cellpadding="2" width="20%" bgcolor="99FFFF" align="center"
-cellspacing="2">
-
+<head></head>
+<body bgcolor="gold" font-color="red">
+ 
+<table border='0' width='480px' cellpadding='0' cellspacing='0' align='center'>
+<center><tr>
+   <td><h1>Registration Form For Sports</h1></td>
+</tr><center>
+ 
+<table border='0' width='480px' cellpadding='0' cellspacing='0' align='center'>
 <tr>
-<td colspan=2>
-<center><font size=4><b>Student Registration Form</b></font></center>
-</td>
+    <td align='center'>Name:</td>
+    <td><input type='text' name='name'></td>
 </tr>
-
+<tr> <td>&nbsp;</td> </tr>
 <tr>
-<td>Name</td>
-<td><input type=text name=textnames id="textname" size="30"></td>
+    <td align='center'>Sur Name:</td>
+    <td><input type='text' name='name'></td>
 </tr>
-
+<tr> <td>&nbsp;</td> </tr>
 <tr>
-<td>Father Name</td>
-<td><input type="text" name="fathername" id="fathername"
-size="30"></td>
+    <td align='center'>Date Of Birth:</td>
+    <td><input type='text' name='name'></td>
 </tr>
+<tr> <td>&nbsp;</td> </tr>
 <tr>
-<td>Postal Address</td>
-<td><input type="text" name="paddress" id="paddress" size="30"></td>
+    <td align='center'>Address:</td>
+    <td><input type='text' name='name'></td>
 </tr>
-
+<tr> <td>&nbsp;</td> </tr>
 <tr>
-<td>Personal Address</td>
-<td><input type="text" name="personaladdress"
-id="personaladdress" size="30"></td>
+    <td align='center'>Phone:</td>
+    <td><input type='text' name='name'></td>
 </tr>
-
+<tr> <td>&nbsp;</td> </tr>
 <tr>
-<td>Sex</td>
-<td><input type="radio" name="sex" value="male" size="10">Male
-<input type="radio" name="sex" value="Female" size="10">Female</td>
+    <td align='center'>Email:</td>
+    <td><input type='text' name='name'></td>
 </tr>
-
+<tr> <td>&nbsp;</td> </tr>
 <tr>
-<td>City</td>
-<td><select name="City">
-<option value="-1" selected>select..</option>
-<option value="New Delhi">NEW DELHI</option>
-<option value="Mumbai">MUMBAI</option>
-<option value="Goa">GOA</option>
-<option value="Patna">PATNA</option>
-</select></td>
+    <td align='center'>Zip:</td>
+    <td><input type='text' name='zip'></td>
 </tr>
-
+<tr> <td>&nbsp;</td> </tr>
+<table border='0' cellpadding='0' cellspacing='0' width='480px' align='center'>
 <tr>
-<td>Course</td>
-<td><select name="Course">
-<option value="-1" selected>select..</option>
-<option value="B.Tech">B.TECH</option>
-<option value="MCA">MCA</option>
-<option value="MBA">MBA</option>
-<option value="BCA">BCA</option>
-</select></td>
-</tr>
-
-<tr>
-<td>District</td>
-<td><select name="District">
-<option value="-1" selected>select..</option>
-<option value="Nalanda">NALANDA</option>
-<option value="UP">UP</option>
-<option value="Goa">GOA</option>
-<option value="Patna">PATNA</option>
-</select></td>
-
-</tr>
-
-<tr>
-<td>State</td>
-<td><select Name="State">
-<option value="-1" selected>select..</option>
-<option value="New Delhi">NEW DELHI</option>
-<option value="Mumbai">MUMBAI</option>
-<option value="Goa">GOA</option>
-<option value="Bihar">BIHAR</option>
-</select></td>
-</tr>
-<tr>
-<td>PinCode</td>
-<td><input type="text" name="pincode" id="pincode" size="30"></td>
-
-</tr>
-<tr>
-<td>EmailId</td>
-<td><input type="text" name="emailid" id="emailid" size="30"></td>
-</tr>
-
-<tr>
-<td>DOB</td>
-<td><input type="text" name="dob" id="dob" size="30"></td>
-</tr>
-
-<tr>
-<td>MobileNo</td>
-<td><input type="text" name="mobileno" id="mobileno" size="30"></td>
-</tr>
-<tr>
-<td><input type="reset"></td>
-<td colspan="2"><input type="submit" value="Submit Form" /></td>
+    <td align='center'><input type='submit' name='REGISTER' value="register"></td>
 </tr>
 </table>
-</form>
+</table>
+ 
+</table>
 </body>
 </html>
+ 
