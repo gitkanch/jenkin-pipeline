@@ -167,7 +167,7 @@ input[type=submit]:hover {
 
 <div>
 <center><img src="cdac.jpg" width="260" height="105">
-<h1 style="color:black"> DHPCSA</h1></center>
+<h1 style="color:black"> DHPCSA </h1></center>
 </div>
 <center><div style="padding-left:16px">
   <marquee><h2 style="color:slateBlue;font-size:50px">KAAS</h2>
